@@ -1,0 +1,45 @@
+
+/* Start Slides */
+.slides{
+    width: calc(100% - 23%);
+    height: 500px;
+}
+.slide{
+    display: flex;
+    padding: 20px;
+}
+.slideText{
+    width: 60%;
+    padding: 50px;
+    justify-content: flex-end;
+}
+.slideImg{
+    width: 40%;
+}
+.slide h1{
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.slide p{
+    font-size: 14px;
+    line-height: 2;
+}
+.slide button{
+    display: block;
+    padding: 10px 10px;
+    text-decoration: none;
+    border: 2px solid #161880;
+    background-color: #161880;
+    color: aliceblue;
+    border-radius: 50px;
+    width: fit-content;
+    font-size: larger;
+    margin: 20px 10px;
+}
+.slide button:hover{
+    background-color: #f6bb2494;
+    color: #161880;
+}
+/* End Slides */

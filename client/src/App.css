@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+/* Start Category */
+.categories{
+  min-width: 22%;
+  height: 500px;
+  padding: 15px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.category{
+  width: 100%;
+  padding: 0 10px;
+  
+}
+.category img{
+  width: 30px;
+  margin: 5px 15px;
+}
+.category span{
+  display: block;
+  text-transform: capitalize;
+}
+.category:hover{
+  background-color: #f6bb2494;
+  cursor: pointer;
+}
+/* End Category */
+/* Start Home */
+.Home{
+  margin-top: 20px;
+}
+/* End Home */
+/* Start Slide Card */
+.Cards{
+  padding: 20px;
+  background-color: aliceblue;
+}
+.Cards .container{
+  background-color: aliceblue;
+}
+.Card{
+  padding: 20px;
+  margin-left: 10px;
+  border-radius: 10px;
+  position: relative;
+  background-color: white;
+}
+.Card:hover{
+  border: 3px solid #f6bb2494;
+}
+.Card img{
+  width: 100%;
+}
+.CardDef{
+  top: 0;
+  position: absolute;
+}
+.Card .discount{
+  display: block;
+  color: white;
+  background-color: red;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px;
+}
+.Card .availabe{
+  display: block;
+  color: white;
+  background-color: green;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px ;
+}
+.Card h2{
+  font-weight: bold;
+}
+.Card i{
+  font-size: 15px;
+  color: yellow;
+  margin: 5px 5px 5px 0px ;
+
+}
+.Card .Favorite{
+  color: red;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.Card .fa-plus{
+  color: red;
+  font-size: x-large;
+  padding: 10px;
+  border-radius: 5px;
+}
+.Card .fa-plus:hover{
+  color: aliceblue;
+  background-color: red;
+}
+.Card .number{
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px;
+  font-size: 30px;
+}
+/* End Slide Card */

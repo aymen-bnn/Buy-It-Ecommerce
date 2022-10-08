@@ -1,0 +1,106 @@
+*{
+    font-family: 'Merriweather';
+}
+/* Start Head */
+.Head{
+    background-color: #161880;
+    color: white;
+}
+.Head label{
+    font-size: 15px;
+}
+.info{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+div ion-icon{
+    font-size: 20px;
+    padding: 10px;
+}
+.info:hover{
+    color: #f6b924;
+}
+/* End Head */
+/* Start Search */
+.search{
+    background-color: #161880;
+    color: white;
+    padding: 10px;
+}
+
+.logo h1{
+    
+    font-weight: 900;
+    font-size: x-large;
+}
+.logo span{
+    color: #f6b924;
+}
+.search-box{
+    width: 40%;
+    height: 80%;
+    border-radius: 30px;
+    background-color: white;
+} 
+.search-bar{
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+}
+.search-button ion-icon{
+    color: #161880;
+    font-size: 30px;
+}
+.search-button ion-icon:hover{
+    background-color: #f6b924;
+    color: white;
+    border-radius: 30px;
+}
+.notification{
+    width: fit-content;
+    text-align: center;
+    padding: 8px; 
+}
+.notification ion-icon{
+    padding:0;
+    color: #f6b924;
+    font-size: xx-large;
+}
+.notification span{
+    display: block;
+    
+}
+/* End Search */
+/* Start navbar */
+header {
+    position: relative;
+    color: white;
+    background-color: #161880;
+}
+
+.nav-elements .nav-link{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    overflow: hidden;
+}
+.nav-elements .nav-link::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    bottom: -3px;
+    left: -100%;
+    background-color: #f6b924;
+    transition: 0.3s;
+}
+.nav-elements .nav-link:hover::before{
+    left: 0;
+}
+@media(max-width){
+    
+}
+/* End navbar */
